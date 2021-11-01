@@ -2,3 +2,4 @@ test
 pisania
 w
 linuxie
+ctr + d - konczy linie tekstu
