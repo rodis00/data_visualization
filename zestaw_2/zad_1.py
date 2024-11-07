@@ -1,8 +1,8 @@
 def foo(*kwargs):
     list = []
-    for kwargs in list:
-        if kwargs not in list:
-            list.append(kwargs)
+    for kwarg in kwargs:
+        if kwarg not in list:
+            list.append(kwarg)
     return list
 
 
