@@ -10,7 +10,7 @@ print(df)
 
 rgb = [np.random.rand(3) for x in range(len(df.index))]
 print(rgb)
-color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for x in range(4)]
+color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for x in range(len(df.index))]
 print(color)
 
 
