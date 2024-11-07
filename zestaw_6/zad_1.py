@@ -1,6 +1,7 @@
 
 def foo(liczba):
-    print(int(liczba, 2))
+    liczba = int(liczba)
+    print(liczba, 'jest typu int: ', isinstance(liczba, int))
 
 
 liczba = input('podaj liczbe: ')
